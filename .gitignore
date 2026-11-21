@@ -1,6 +1,7 @@
-# 数据缓存（体积大、可重新抓取，不入库）
+# 原始抓取缓存（体积大、可重新抓取，不入库）
 data/raw/
-data/processed/
+
+# 注：data/processed/ 里的团队统一数据集（约 1 MB）要入库，方便队友直接使用
 
 # Python
 __pycache__/
